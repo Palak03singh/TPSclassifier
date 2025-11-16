@@ -4,11 +4,11 @@ TPSclassifier is a self-contained, cross-platform Python application for the fun
 •	**Script Mode:** Direct invocation from the terminal, enabling pipeline integration and batch processing.
 # **Functional Overview:**
 The tool accepts protein FASTA sequences as input. Upon submission, it automatically pre-processes and encodes the sequences using optimized protein descriptors and motif-based features, applies pre-trained Random Forest classification model, generating structured output files containing predicted TPSes in excel and fasta, static and interactive PCA plots for summary visualizations.
-Platform Compatibility:
-** Operating Systems: Linux (Ubuntu) and Windows (10)**
+# **Platform Compatibility:**
+Linux (Ubuntu) and Windows (10)
 # **Example Usage to launch GUI mode:**
-Double click on “app.exe” file for GUI Mode or paste the command within the dist folder to launch “python TPSclassifier.py”
-→ Launches the graphical interface where users can browse for input/output and specify thread count.
+  Double click on “app.exe” file for GUI Mode or paste the command within the dist folder to launch “python TPSclassifier.py”.
+  → Launches the graphical interface where users can browse for input/output and specify thread count.
 # **Command Line Mode**
   python TPSclassifier.py -i input.fasta -o results/ -t 8
   → Runs classification directly via terminal with 8 threads.
