@@ -1,7 +1,7 @@
 # TPSclassifier
 TPSclassifier is a self-contained, cross-platform Python application for the functional subfamily classification of terpene synthases (TPSses), widely applicable across Viridiplantae taxonomy. The tool is optimized for high-throughput analysis of large FASTA datasets via encrypted threaded execution. Its core prediction mechanism utilizes adaptive motif extraction and compositional encoding specifically tuned for TPS domains. It offers dual functionality for diverse workflow integration:
-•	GUI Mode: A lightweight interface requiring no command-line proficiency.
-•	Script Mode: Direct invocation from the terminal, enabling pipeline integration and batch processing.
+•	**GUI Mode:** A lightweight interface requiring no command-line proficiency.
+•	**Script Mode:** Direct invocation from the terminal, enabling pipeline integration and batch processing.
 # **Functional Overview:**
 The tool accepts protein FASTA sequences as input. Upon submission, it automatically pre-processes and encodes the sequences using optimized protein descriptors and motif-based features, applies pre-trained Random Forest classification model, generating structured output files containing predicted TPSes in excel and fasta, static and interactive PCA plots for summary visualizations.
 Platform Compatibility:
