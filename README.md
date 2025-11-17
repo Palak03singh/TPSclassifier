@@ -15,4 +15,4 @@ Linux (Ubuntu) and Windows (10)
 # **Technical support:**
 Email to – palak03singh@gmail.com, fkhan.cimap@csir.res.in 
 # **Referencing:**
-Currently no manuscript is available to cite for this tool, instead you can cite the link directly as “Singh, P. and Khan, F. https://github.com/Palak03singh/TPSclassifier"
+Currently no manuscript is available to cite for this tool, instead you can cite the link directly as “Singh, P., Khan, F., Khatoon, K., Rahman, L.U. https://github.com/Palak03singh/TPSclassifier"
